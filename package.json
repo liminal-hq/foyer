@@ -1,0 +1,25 @@
+{
+	"name": "foyer-monorepo",
+	"version": "0.1.0",
+	"private": true,
+	"license": "UNLICENSED",
+	"workspaces": [
+		"apps/*",
+		"packages/*",
+		"plugins/*"
+	],
+	"scripts": {
+		"test": "bun run --filter '*' test",
+		"tauri": "bun run --filter foyer tauri",
+		"prebuild:desktop": "bun run --filter @foyer/core build",
+		"prebuild:android": "bun run --filter @foyer/core build",
+		"build:desktop": "bun run --filter foyer tauri build",
+		"build:android": "bun run --filter foyer tauri android build",
+		"dev:desktop": "bun run --filter foyer tauri dev",
+		"dev:android": "bun run --filter foyer tauri android dev",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^3.8.0"
+	}
+}

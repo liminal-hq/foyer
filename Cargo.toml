@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "apps/foyer/src-tauri",
+    "plugins/notification-listener",
+]
+resolver = "2"
+
+[profile.release]
+strip = false

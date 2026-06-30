@@ -1,0 +1,20 @@
+{
+	"name": "Foyer Dev (Android)",
+	"image": "ghcr.io/liminal-hq/tauri-dev-mobile:latest",
+	"forwardPorts": [1420, 1421],
+	"remoteEnv": {
+		"PATH": "/home/vscode/.bun/bin:${containerEnv:PATH}"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer",
+				"esbenp.prettier-vscode",
+				"tauri-apps.tauri-vscode",
+				"oven.bun-vscode",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	"postCreateCommand": "curl -fsSL https://bun.sh/install | bash && /home/vscode/.bun/bin/bun install"
+}

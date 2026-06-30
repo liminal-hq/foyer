@@ -1,0 +1,19 @@
+{
+	"$schema": "../gen/schemas/desktop-schema.json",
+	"identifier": "default",
+	"description": "Core capabilities for the Foyer window",
+	"windows": ["*"],
+	"permissions": [
+		"core:default",
+		"core:event:default",
+		"core:window:default",
+		"core:window:allow-start-dragging",
+		"log:default",
+		"os:default",
+		"fs:default",
+		"sql:default",
+		"sql:allow-execute",
+		"sql:allow-select",
+		"sql:allow-load"
+	]
+}

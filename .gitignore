@@ -1,0 +1,48 @@
+node_modules/
+/target/
+plugins/*/target/
+dist/
+.DS_Store
+.env
+.idea/
+.vscode/
+build/
+
+# pnpm store
+.pnpm-store/
+
+# Android
+android-build-results.log
+logcat*.log
+
+# Tauri plugin build artifacts
+plugins/**/android/.tauri/
+build
+.tauri
+.gradle
+
+# Android Keystores (CRITICAL - never commit!)
+*.jks
+*.keystore
+keystore.properties
+keys
+.foyer-keys
+
+# RAG / local corpus (never commit personal data)
+corpus/*
+!corpus/.gitkeep
+*.sqlite
+*.sqlite-*
+
+# Release outputs
+/release/
+
+# Test results
+junit.xml
+js-test-results.xml
+rust-test-results/
+test-results/
+coverage/
+
+# Agent journal
+.claude-journal.md

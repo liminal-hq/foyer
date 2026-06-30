@@ -1,0 +1,24 @@
+[package]
+name = "foyer"
+version = "0.1.0"
+description = "Foyer — a calm, pull-only triage surface"
+authors = ["Liminal HQ, Scott Morris"]
+edition = "2021"
+rust-version = "1.77.2"
+
+[lib]
+name = "foyer_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri-plugin-sql = { version = "2.0.0", features = ["sqlite"] }
+tauri-plugin-log = "2"
+tauri-plugin-os = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-notification-listener = { path = "../../../plugins/notification-listener" }

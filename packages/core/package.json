@@ -1,0 +1,24 @@
+{
+	"name": "@foyer/core",
+	"version": "0.0.1",
+	"type": "module",
+	"private": true,
+	"exports": {
+		"./types": {
+			"source": "./src/types.ts",
+			"default": "./dist/types.js"
+		},
+		"./triage": {
+			"source": "./src/triage.ts",
+			"default": "./dist/triage.js"
+		}
+	},
+	"scripts": {
+		"build": "tsc",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"typescript": "^5.8.3",
+		"vitest": "^1.6.1"
+	}
+}
