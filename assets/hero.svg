@@ -116,7 +116,7 @@
 
   <!-- The Sill badge: ambient mood, never a count -->
   <g transform="translate(80, 214)">
-    <rect width="232" height="40" rx="12" fill="#1b1e24" stroke="#2e3540" stroke-width="1"/>
+    <rect width="324" height="40" rx="12" fill="#1b1e24" stroke="#2e3540" stroke-width="1"/>
     <circle cx="22" cy="20" r="4" fill="#9bb4d8">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="6s" repeatCount="indefinite"/>
     </circle>
