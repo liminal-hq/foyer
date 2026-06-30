@@ -1,5 +1,9 @@
 # Foyer
 
+<p align="center">
+  <img src="assets/hero.svg" alt="Foyer — a calm, phone-first triage surface for SMS, RCS, email, and notifications" width="100%">
+</p>
+
 **Glance, don't drown.** Foyer is a phone-first, local-first triage surface that pulls SMS/MMS/RCS, email, and app notifications into one calm, pre-digested view — built for brains that get overwhelmed processing messages one at a time.
 
 It is **not** another notification stream. Foyer never pings you. It is a place you *go to*, on your terms, that has already done the triage for you.
