@@ -1,6 +1,6 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-title hero-desc">
   <title id="hero-title">Foyer</title>
-  <desc id="hero-desc">Glance, don't drown. A calm, phone-first triage surface. Messages drift in from the right, pass through a threshold, and settle quietly into urgency lanes.</desc>
+  <desc id="hero-desc">See everything at a glance. A calm, phone-first triage surface. Messages drift in from the right, pass through a threshold, and settle quietly into urgency lanes.</desc>
 
   <defs>
     <!-- Background gradient -->
@@ -111,7 +111,7 @@
   <text x="80" y="124" font-size="46" font-family="'Space Grotesk', 'Inter', system-ui, sans-serif" font-weight="700" letter-spacing="-0.02em" fill="url(#brand)" filter="url(#text-glow)">Foyer</text>
 
   <!-- Tagline -->
-  <text x="82" y="156" fill="#c2cad6" font-size="17" font-family="'Inter', system-ui, sans-serif">Glance, don't drown.</text>
+  <text x="82" y="156" fill="#c2cad6" font-size="17" font-family="'Inter', system-ui, sans-serif">See everything at a glance.</text>
   <text x="82" y="182" fill="#7e8796" font-size="14" font-family="'Inter', system-ui, sans-serif">SMS · RCS · email · notifications — one calm, pre-triaged view.</text>
 
   <!-- The Sill badge: ambient mood, never a count -->
